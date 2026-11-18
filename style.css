@@ -422,3 +422,204 @@ h2 {
     z-index: 1;
   }
 }
+/* ===== Tombol ===== */
+.btn-orange,
+.btn-fi-orange {
+  background-color: rgb(255, 115, 0);
+  border-color: rgb(255, 115, 0);
+  color: #fff;
+}
+
+.btn-orange:hover,
+.btn-fi-orange:hover {
+  background-color: rgb(224, 92, 0);
+  border-color: rgb(224, 92, 0);
+  color: #fff;
+}
+
+.btn-fi-outline-orange {
+  color: rgb(255, 115, 0);
+  border: 2px solid rgb(255, 115, 0);
+  background-color: transparent;
+}
+
+.btn-fi-outline-orange:hover {
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+}
+
+.btn-fi-green {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: #fff;
+}
+
+.btn-fi-green:hover {
+  background-color: #218838;
+  border-color: #218838;
+  color: #fff;
+}
+
+/* ===== Navbar FI ===== */
+.navbar-fi {
+  background-color: rgb(255, 115, 0);
+}
+
+.navbar-fi .dropdown-menu {
+  min-width: 200px;
+}
+
+.navbar-fi .dropdown-item.active,
+.navbar-fi .dropdown-item:active {
+  background-color: rgb(255, 115, 0);
+  color: #fff;
+}
+
+.navbar-fi .dropdown-item.active-unit {
+  font-weight: 600;
+}
+
+/* ===== Checklist Program ===== */
+.program-checklist {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem;
+}
+
+.program-checklist li {
+  position: relative;
+  padding-left: 30px;
+  margin-bottom: 12px;
+  color: #444;
+  line-height: 1.6;
+}
+
+.program-checklist li::before {
+  content: "\2713";
+  position: absolute;
+  left: 0;
+  color: rgb(255, 115, 0);
+  font-weight: bold;
+}
+
+/* ===== Alur Pendaftaran ===== */
+.alur-list {
+  padding-left: 1.4rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+.alur-list li {
+  margin-bottom: 10px;
+}
+
+.alur-list a {
+  color: rgb(255, 115, 0);
+}
+
+/* ===== Gambar Halaman Unit ===== */
+.tkit-img-landscape,
+.program-img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.tkit-img-landscape {
+  max-height: 420px;
+}
+
+.tkit-img-portrait {
+  max-height: 520px;
+  object-fit: cover;
+}
+
+.program-img {
+  max-height: 380px;
+}
+
+/* ===== Footer FI ===== */
+.footer-fi {
+  background: linear-gradient(135deg, rgb(255, 115, 0) 0%, rgb(224, 90, 0) 100%);
+}
+
+.footer-fi .footer-links a {
+  color: rgba(255, 255, 255, 0.85);
+  text-decoration: none;
+}
+
+.footer-fi .footer-links a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.footer-stripe {
+  height: 6px;
+  background: linear-gradient(90deg, rgb(255, 115, 0), rgb(224, 174, 81));
+}
+
+/* ===== Floating WhatsApp ===== */
+.whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 1050;
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background-color: #25d366;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* ===== Kutipan Ketua Yayasan ===== */
+.quote-watermark {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 75%;
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+.quote-portrait {
+  max-height: 340px;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+}
+
+/* ===== Berita ===== */
+.berita-title {
+  color: #333;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.berita-title:hover {
+  color: rgb(255, 115, 0);
+}
+
+.berita-meta {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+@media (max-width: 767.98px) {
+  .tkit-img-landscape,
+  .program-img {
+    max-height: 280px;
+  }
+
+  .tkit-img-portrait {
+    max-height: 380px;
+  }
+}
